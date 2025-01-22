@@ -1,4 +1,5 @@
-Neste tutorial, será apresentado como criar um CRUD com Laravel 11, ou seja, cadastrar, listar, editar e apagar.<br>
+Código fonte desenvolvido na aulas: [Acessar as aulas](https://www.youtube.com/watch?v=ZQJdYM1m4q0&list=PLmY5AEiqDWwAtyKsgpKg6_impHxMQdIFH).<br>
+Como criar um CRUD com Laravel 11, ou seja, cadastrar, listar, editar e apagar.<br>
 Por fim, será mostrado como integrar o framework Bootstrap no Laravel com Vite.<br>
 
 ## Requisitos
