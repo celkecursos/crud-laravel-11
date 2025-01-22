@@ -12,7 +12,7 @@ class UserController extends Controller
     {
 
         // Recuperar os registros do banco dados
-        $users = User::orderByDesc('id')->get();
+        $users = User::orderByDesc('id')->paginate(2);
 
         // Carregar a VIEW
         return view('users.index', ['users' => $users]);

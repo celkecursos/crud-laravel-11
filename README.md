@@ -1,11 +1,11 @@
+Neste tutorial, será apresentado como criar um CRUD com Laravel 11, ou seja, cadastrar, listar, editar e apagar.<br>
+Por fim, será mostrado como integrar o framework Bootstrap no Laravel com Vite.<br>
+
 ## Requisitos
 
 * PHP 8.2 ou superior
 * Composer
 * Node.js 20 ou superior<br>
-
-Neste tutorial, será apresentado como criar um CRUD com Laravel 11, ou seja, cadastrar, listar, editar e apagar.<br>
-Por fim, será mostrado como integrar o framework Bootstrap no Laravel com Vite.<br>
 
 ## Como rodar o projeto baixado
 
@@ -128,3 +128,25 @@ Executar as bibliotecas Node.js
 ```
 npm run dev
 ```
+
+Traduzir para português [Módulo de linguagem pt-BR](https://github.com/lucascudo/laravel-pt-BR-localization).
+
+## Como usar o GitHub
+Baixar os arquivos do Git
+```
+git clone --branch <branch_name> <repository_url> .
+```
+```
+git clone https://github.com/celkecursos/criar-crud-laravel11-cadastrar-listar-editar-apagar.git .
+```
+
+Listar o histórico de commits para identificar o hash do commit desejado.
+```
+git log
+```
+
+Fazer checkout para o commit específico.
+```
+git checkout <hash_do_commit>
+```
+

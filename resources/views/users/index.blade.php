@@ -46,9 +46,15 @@
                             </td>
                         </tr>
                     @empty
+                        <div class="alert alert-danger" role="alert">
+                            Nenhum usuário encontrado!
+                        </div>
                     @endforelse
                 </tbody>
             </table>
+
+            {{ $users->links() }}
+
         </div>
     </div>
 @endsection
